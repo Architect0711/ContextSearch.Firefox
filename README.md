@@ -55,7 +55,7 @@ There are different ways to deploy a Firefox extension to your and / or other pe
 
 ##### Temporary: Developer Tools #####
 
-This is the easiest and fastest way to get an extension into Firefox. However, it is only useful during development, since the extension will be removed when you restart your machine. Keep the *manifest.json*, the *background.js* and the *icons* folder in a directory (as they are when you clone this repository), navigate to the page [Debugging with Firefox for Developer Tools](about:debugging) in Firefox and click the *Load Temporary Add-on* button, navigate to that folder and select the *manifest.json* file.
+This is the easiest and fastest way to get an extension into Firefox. However, it is only useful during development, since the extension will be removed when you restart your machine. Keep the *manifest.json*, the *background.js* and the *icons* folder in a directory (as they are when you clone this repository), navigate to the Developer Tools Page in Firefox (enter *about:debugging* into the address bar) and click the *Load Temporary Add-on* button, navigate to that folder and select the *manifest.json* file.
 
 ##### Permanent: Signing the extension #####
 
