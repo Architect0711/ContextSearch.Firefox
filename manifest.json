@@ -1,0 +1,27 @@
+{
+  "author":"ENTER-AUTHOR-NAME-HERE",
+  "manifest_version": 2,
+  "name": "ENTER-EXTENSION-NAME-HERE",
+  "description": "ENTER-EXTENSION-DESCRIPTION-HERE",
+  "version": "1.0",
+  "applications": {
+  "gecko": {
+    "id": "ENTER-YOUR@EMAIL.HERE",
+    "strict_min_version": "60.0"
+	}
+  },
+  
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "menus",
+    "<all_urls>"
+  ]
+}
